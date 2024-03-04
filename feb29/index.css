@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: hsl(225, 100%, 94%);
+}
+.hero{
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.box{
+  width: 27%;
+  height: 33rem;
+  background-color: white;
+  margin-top: 5%;
+  margin-left: 35%;
+  border-radius: 1rem;
+  position: relative;
+}
+.box img{
+  width: 100%;
+  height: 11rem;
+  border-radius: 1rem 1rem 0 0;
+  position: absolute;
+}
+h2{
+  position: absolute;
+  left: 25%;
+  top: 13rem;
+  background-color: white;
+  color: hsl(223, 47%, 23%);
+}
+.first{
+  position: absolute;
+  width: 75%;
+  left: 12%;
+  top: 15.5rem;
+  text-align: center;
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+}
+.price{
+  position: absolute;
+  top: 20rem;
+  left: 12%;
+  width: 75%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+}
+.price img{
+  width: 40px;
+  height: 40px;
+  margin-left: 5%;
+}
+.try{
+  margin-left: 25%;
+}
+a{
+  margin-left: 18%;
+}
+a:hover{
+  text-decoration: none;
+}
+.pro{
+  position: absolute;
+  top: 26rem;
+  left: 12%;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0px 19px 3px -2px rgba(56,41,224,0.11);
+  color: white;
+  padding-top: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 3%;
+  border-radius: 0.5rem;
+}
+span:hover{
+  cursor: pointer;
+  background-color: hsl(224, 23%, 55%);
+}
+.sec{
+  position: absolute;
+  top: 30rem;
+  left: 38%;
+  background-color: white;
+  font-size: small;
+  color: hsl(225, 27%, 35%);
+
+}
+.sec:hover{
+  cursor: pointer;
+  color: hsl(225, 37%, 26%);
+}
+@media screen and (max-width:600px){
+  .box{
+    width: 90%;
+    height: 33rem;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 1rem;
+    position: relative;
+  }
+
+}
